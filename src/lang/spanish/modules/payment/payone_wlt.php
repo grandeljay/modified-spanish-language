@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Spanish language
+ *
+ * @author  Jay Trees <spanish-language@grandels.email>
+ * @link    https://github.com/grandeljay/modified-spanish-language
+ * @package GrandelJaySpanishLanguage
+ */
+
+require_once dirname(__FILE__) . '/payone.php';
+
+define('MODULE_PAYMENT_PAYONE_WLT_TEXT_TITLE', 'PayPal a través de Payone');
+define('MODULE_PAYMENT_PAYONE_WLT_TEXT_DESCRIPTION', 'Pago mediante monedero electrónico a través de PayOne');
+define('MODULE_PAYMENT_PAYONE_WLT_TEXT_INFO', 'Pago mediante monedero electrónico (PayPal)');
+define('MODULE_PAYMENT_PAYONE_WLT_STATUS_TITLE', MODULE_PAYMENT_PAYONE_STATUS_TITLE);
+define('MODULE_PAYMENT_PAYONE_WLT_STATUS_DESC', MODULE_PAYMENT_PAYONE_STATUS_DESC);
+define('MODULE_PAYMENT_PAYONE_WLT_ALLOWED_TITLE', MODULE_PAYMENT_PAYONE_ALLOWED_TITLE);
+define('MODULE_PAYMENT_PAYONE_WLT_ALLOWED_DESC', MODULE_PAYMENT_PAYONE_ALLOWED_DESC);
+define('MODULE_PAYMENT_PAYONE_WLT_ZONE_TITLE', MODULE_PAYMENT_PAYONE_ZONE_TITLE);
+define('MODULE_PAYMENT_PAYONE_WLT_ZONE_DESC', MODULE_PAYMENT_PAYONE_ZONE_DESC);
+define('MODULE_PAYMENT_PAYONE_WLT_SORT_ORDER_TITLE', MODULE_PAYMENT_PAYONE_SORT_ORDER_TITLE);
+define('MODULE_PAYMENT_PAYONE_WLT_SORT_ORDER_DESC', MODULE_PAYMENT_PAYONE_SORT_ORDER_DESC);

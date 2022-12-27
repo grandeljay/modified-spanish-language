@@ -1,0 +1,21 @@
+{
+    "archiveName": "grandeljay/modified-spanish-language",
+    "description": "Adds the Spanish translations.",
+    "developer": "grandeljay",
+    "name": "Spanish Language",
+    "shortDescription": "Adds the Spanish translations.",
+    "developerWebsite": "https://github.com/grandeljay",
+    "website": "https://github.com/grandeljay",
+    "sourceDir": "src",
+    "version": "auto",
+    "category": "language",
+    "tags": "language, spanish",
+    "price": "free",
+    "modifiedCompatibility": [
+        "2.0.7.2"
+    ],
+    "require": {
+        "composer/autoload": "^1.0.0",
+        "robinthehood/modified-std-module": "^0.6.0"
+    }
+}
