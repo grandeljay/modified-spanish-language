@@ -9,13 +9,13 @@
  */
 
 define('MODULE_ORDER_TOTAL_PS_FEE_TITLE', 'Mano propia');
-define('MODULE_ORDER_TOTAL_PS_FEE_DESCRIPTION', 'Cálculo Mano propia');
+define('MODULE_ORDER_TOTAL_PS_FEE_DESCRIPTION', 'CÃ¡lculo Mano propia');
 
 define('MODULE_ORDER_TOTAL_PS_FEE_STATUS_TITLE', 'Mano propia');
-define('MODULE_ORDER_TOTAL_PS_FEE_STATUS_DESC', 'Cálculo Mano propia');
+define('MODULE_ORDER_TOTAL_PS_FEE_STATUS_DESC', 'CÃ¡lculo Mano propia');
 
-define('MODULE_ORDER_TOTAL_PS_FEE_SORT_ORDER_TITLE', 'Orden de clasificación');
-define('MODULE_ORDER_TOTAL_PS_FEE_SORT_ORDER_DESC', 'Orden de visualización');
+define('MODULE_ORDER_TOTAL_PS_FEE_SORT_ORDER_TITLE', 'Orden de clasificaciÃ³n');
+define('MODULE_ORDER_TOTAL_PS_FEE_SORT_ORDER_DESC', 'Orden de visualizaciÃ³n');
 
 define('MODULE_ORDER_TOTAL_PS_FEE_TAX_CLASS_TITLE', 'Clase de impuestos');
 define('MODULE_ORDER_TOTAL_PS_FEE_TAX_CLASS_DESC', 'Elija una clase fiscal.');
@@ -44,13 +44,13 @@ if (count($installed_shipping_modules) > 0) {
         define('MODULE_ORDER_TOTAL_PS_' . $shipping_code . '_TITLE', $title);
         define(
             'MODULE_ORDER_TOTAL_PS_' . $shipping_code . '_DESC',
-            '&lt;código ISO2&gt;:&lt;precio&gt;, ....<br />
-            00 como código ISO2 permite el cobro para todos los países. Si
-            00, éste debe introducirse como último argumento. Si
-            00:9.99 no se introduce, la tasa no se cobrará en el extranjero (no es posible).
-            (no es posible). Para excluir sólo un país, no introduzca ningún cargo para ese país.
-            para este país. Ejemplo: DE:4.00,CH:,00:9.99<br />-&gt; Explicación: Envío a DE: 4&euro; /
-            Envío a CH: no es posible / Envío al resto del mundo: 9,99&euro;.'
+            '&lt;cÃ³digo ISO2&gt;:&lt;precio&gt;, ....<br />
+            00 como cÃ³digo ISO2 permite el cobro para todos los paÃ­ses. Si
+            00, Ã©ste debe introducirse como Ãºltimo argumento. Si
+            00:9.99 no se introduce, la tasa no se cobrarÃ¡ en el extranjero (no es posible).
+            (no es posible). Para excluir sÃ³lo un paÃ­s, no introduzca ningÃºn cargo para ese paÃ­s.
+            para este paÃ­s. Ejemplo: DE:4.00,CH:,00:9.99<br />-&gt; ExplicaciÃ³n: EnvÃ­o a DE: 4&euro; /
+            EnvÃ­o a CH: no es posible / EnvÃ­o al resto del mundo: 9,99&euro;.'
         );
     }
 }
