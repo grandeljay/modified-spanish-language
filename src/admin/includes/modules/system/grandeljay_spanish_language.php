@@ -18,7 +18,11 @@ class grandeljay_spanish_language extends StdModule
 
     public function __construct()
     {
-        $this->init('MODULE_' . strtoupper(self::class));
+        if (function_exists('parent::__construct()')) {
+            parent::__construct();
+        } else {
+            $this->init('MODULE_' . strtoupper(self::class));
+        }
     }
 
     public function display()
