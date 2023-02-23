@@ -20,6 +20,8 @@ class grandeljay_spanish_language extends StdModule
     public function __construct()
     {
         parent::__construct();
+
+        $this->checkForUpdate(true);
     }
 
     public function display()
@@ -149,6 +151,17 @@ class grandeljay_spanish_language extends StdModule
 
             /** cookie_consent_categories */
         }
+    }
+
+    protected function updateSteps()
+    {
+        if (version_compare($this->getVersion(), self::VERSION, '<')) {
+            $this->setVersion(self::VERSION);
+
+            return self::UPDATE_SUCCESS;
+        }
+
+        return self::UPDATE_NOTHING;
     }
 
     public function remove()
