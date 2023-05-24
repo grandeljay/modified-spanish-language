@@ -23,42 +23,41 @@ class grandeljay_spanish_language extends StdModule
 
         $this->checkForUpdate(true);
     }
-}
+
+    public function display()
+    {
+        return $this->displaySaveButton();
     }
 
-public function display()
-{
-    return $this->displaySaveButton();
-}
+    public function install()
+    {
+        parent::install();
 
-public function install()
-{
-    parent::install();
+        /** Insert Spanish language */
+        $sql_data_array = array(
+            'name'             => 'Spanish',
+            'code'             => 'es',
+            'image'            => 'es.svg',
+            'directory'        => 'spanish',
+            'sort_order'       => '3',
+            'language_charset' => 'utf-8',
+            'status'           => '1',
+            'status_admin'     => '1',
+        );
 
-    /** Insert Spanish language */
-    $sql_data_array = array(
-        'name'             => 'Spanish',
-        'code'             => 'es',
-        'image'            => 'es.svg',
-        'directory'        => 'spanish',
-        'sort_order'       => '3',
-        'language_charset' => 'utf-8',
-        'status'           => '1',
-        'status_admin'     => '1',
-    );
+        xtc_db_perform(TABLE_LANGUAGES, $sql_data_array);
 
-    xtc_db_perform(TABLE_LANGUAGES, $sql_data_array);
+        $lID = xtc_db_insert_id();
+    }
 
-    $lID = xtc_db_insert_id();
-}
+    public function remove()
+    {
+        parent::remove();
 
-public function remove()
-{
-    parent::remove();
-
-    /** Remove Spanish language */
-    xtc_db_query(
-        'DELETE FROM `' . TABLE_LANGUAGES . '`
-                   WHERE `code` = "es"'
-    );
+        /** Remove Spanish language */
+        xtc_db_query(
+            'DELETE FROM `' . TABLE_LANGUAGES . '`
+                    WHERE `code` = "es"'
+        );
+    }
 }
