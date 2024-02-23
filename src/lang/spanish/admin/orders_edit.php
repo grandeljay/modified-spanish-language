@@ -23,7 +23,7 @@ define('IMAGE_EDIT_PRODUCTS', 'Editar o insertar artículos y opciones');
 define('IMAGE_EDIT_OTHER', 'Edite o inserte gastos de envío, pagos, vales, etc.');
 
 define('TEXT_INVOICE_ADDRESS', 'Kundenadresse');
-define('TEXT_SHIPPING_ADDRESS', 'Versandadresse');
+define('TEXT_SHIPPING_ADDRESS', 'Dirección de envío');
 define('TEXT_BILLING_ADDRESS', 'Dirección de facturación');
 
 define('TEXT_COMPANY', 'Empresa:');

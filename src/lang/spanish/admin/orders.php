@@ -57,7 +57,7 @@ define('ENTRY_SOLD_TO', 'Dirección de facturación:');
 define('ENTRY_TELEPHONE', 'Teléfono:');
 define('ENTRY_DELIVERY_TO', 'Dirección de entrega:');
 define('ENTRY_SHIP_TO', 'Dirección de entrega:');
-define('ENTRY_SHIPPING_ADDRESS', 'Versandadresse:');
+define('ENTRY_SHIPPING_ADDRESS', 'Dirección de envío:');
 define('ENTRY_PICKUP_ADDRESS', 'Abholadresse:');
 define('ENTRY_BILLING_ADDRESS', 'Dirección de facturación:');
 define('ENTRY_PAYMENT_METHOD', 'Forma de pago:');
