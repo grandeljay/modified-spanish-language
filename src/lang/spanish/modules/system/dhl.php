@@ -56,7 +56,7 @@ define('MODULE_DHL_ENDORSEMENT_TITLE', 'Directiva anticipada');
 define('MODULE_DHL_ENDORSEMENT_DESC', '¿Cómo deben gestionarse los paquetes internacionales si no pueden entregarse?');
 
 define('MODULE_DHL_COMPANY_TITLE', '<hr noshade>Detalles del cliente<br/>');
-define('MODULE_DHL_COMPANY_DESC', 'Firma:');
+define('MODULE_DHL_COMPANY_DESC', 'Empresa:');
 define('MODULE_DHL_FIRSTNAME_TITLE', '');
 define('MODULE_DHL_FIRSTNAME_DESC', 'Nombre de pila:');
 define('MODULE_DHL_LASTNAME_TITLE', '');
@@ -64,7 +64,7 @@ define('MODULE_DHL_LASTNAME_DESC', 'Apellido:');
 define('MODULE_DHL_ADDRESS_TITLE', '');
 define('MODULE_DHL_ADDRESS_DESC', 'Dirección:');
 define('MODULE_DHL_POSTCODE_TITLE', '');
-define('MODULE_DHL_POSTCODE_DESC', 'PLZ:');
+define('MODULE_DHL_POSTCODE_DESC', 'Código Postal:');
 define('MODULE_DHL_CITY_TITLE', '');
 define('MODULE_DHL_CITY_DESC', 'Ciudad:');
 define('MODULE_DHL_TELEPHONE_TITLE', '');

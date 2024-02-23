@@ -8,9 +8,9 @@
  * @package GrandelJaySpanishLanguage
  */
 
-define('EMAIL_COMPANY', 'Firma: ');
-define('EMAIL_STREET', 'Stra&szlig;e: ');
-define('EMAIL_POSTCODE', 'PLZ: ');
+define('EMAIL_COMPANY', 'Empresa: ');
+define('EMAIL_STREET', 'Calle: ');
+define('EMAIL_POSTCODE', 'Código Postal: ');
 define('EMAIL_CITY', 'Ciudad: ');
 define('EMAIL_PHONE', 'Teléfono: ');
 define('EMAIL_FAX', 'Fax: ');

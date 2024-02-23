@@ -26,16 +26,16 @@ define('TEXT_INVOICE_ADDRESS', 'Kundenadresse');
 define('TEXT_SHIPPING_ADDRESS', 'Versandadresse');
 define('TEXT_BILLING_ADDRESS', 'Dirección de facturación');
 
-define('TEXT_COMPANY', 'Firma:');
+define('TEXT_COMPANY', 'Empresa:');
 define('TEXT_NAME', 'Nombre:');
 define('TEXT_STREET', 'Calle');
-define('TEXT_ZIP', 'PLZ:');
+define('TEXT_ZIP', 'Código Postal:');
 define('TEXT_CITY', 'Ciudad:');
 define('TEXT_COUNTRY', 'País:');
 define('TEXT_CUSTOMER_GROUP', 'Grupo de clientes en el pedido');
 define('TEXT_CUSTOMER_EMAIL', 'Correo electrónico:');
 define('TEXT_CUSTOMER_TELEPHONE', 'Teléfono:');
-define('TEXT_CUSTOMER_UST', 'USt-IdNr:');
+define('TEXT_CUSTOMER_UST', 'Número de IVA:');
 define('TEXT_CUSTOMER_CID', 'Número de cliente:');
 define('TEXT_ORDERS_ADDRESS_EDIT_INFO', 'Tenga en cuenta que los datos introducidos aquí sólo se modificarán en el pedido y no en la cuenta del cliente.');
 
@@ -88,7 +88,7 @@ define('TEXT_ORDERS_PRODUCT_EDIT_INFO', '<b>Nota:</b> ¡Para los precios escalon
 define('TEXT_FIRSTNAME', 'Nombre de pila:');
 define('TEXT_LASTNAME', 'Apellido:');
 
-define('TEXT_GENDER', 'Anrede:');
+define('TEXT_GENDER', 'Saludo:');
 define('TEXT_MR', 'Sr.');
 define('TEXT_MRS', 'Sra.');
 

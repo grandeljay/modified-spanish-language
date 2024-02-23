@@ -23,7 +23,7 @@ define(
     se recrea.<br /> <br />
     Para ello, el script sólo procesa un número limitado de imágenes %s y luego se vuelve a llamar a sí mismo.<br /><br />'
 );
-define('MODULE_STEP_IMAGE_PROCESS_TEXT_TITLE', 'Tratamiento de imágenes');
+define('MODULE_STEP_IMAGE_PROCESS_TEXT_TITLE', 'Saludo de imágenes');
 define('MODULE_STEP_IMAGE_PROCESS_STATUS_DESC', 'Estado del módulo');
 define('MODULE_STEP_IMAGE_PROCESS_STATUS_TITLE', 'Estado');
 define('IMAGE_EXPORT', 'Pulse Inicio para iniciar el procesamiento por lotes. Este proceso puede llevar algún tiempo - ¡no lo interrumpa!');
@@ -32,7 +32,7 @@ define('IMAGE_EXPORT_TYPE', '<hr noshade><strong>Procesamiento por lotes:</stron
 define('IMAGE_STEP_INFO', 'Imágenes creadas: ');
 define('IMAGE_STEP_INFO_READY', ' - ¡Listo!');
 define('TEXT_MAX_IMAGES', '<b>Imágenes por recarga de página:</b>');
-define('TEXT_PROCESS_TYPE', '<b>Tratamiento de imágenes:</b>');
+define('TEXT_PROCESS_TYPE', '<b>Saludo de imágenes:</b>');
 define('TEXT_SETTINGS', '<b>Ajustes:</b>');
 define('TEXT_LOGGING', '<b>Registro:</b>');
 define('TEXT_ONLY_MISSING_IMAGES', 'Crear sólo las imágenes que faltan');

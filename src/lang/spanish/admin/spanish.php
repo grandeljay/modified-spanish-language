@@ -94,7 +94,7 @@ define('BOX_CONFIGURATION_14', 'Compresión');
 define('BOX_CONFIGURATION_15', 'Sesiones');
 define('BOX_CONFIGURATION_16', 'Metaetiquetas/motores de búsqueda');
 define('BOX_CONFIGURATION_17', 'Módulos adicionales');
-define('BOX_CONFIGURATION_18', 'USt-IdNr.');
+define('BOX_CONFIGURATION_18', 'Número de IVA');
 define('BOX_CONFIGURATION_19', 'Socio');
 define('BOX_CONFIGURATION_22', 'Opciones de búsqueda');
 define('BOX_CONFIGURATION_24', 'Google, Matomo y Facebook');
@@ -218,7 +218,7 @@ define('CATEGORY_CONTACT', 'Póngase en contacto con');
 define('CATEGORY_COMPANY', 'Empresa');
 define('CATEGORY_OPTIONS', 'Más opciones');
 
-define('ENTRY_GENDER', 'Anrede:');
+define('ENTRY_GENDER', 'Saludo:');
 define('ENTRY_GENDER_ERROR', ' <span class="errorText">aportación necesaria</span>');
 define('ENTRY_FIRST_NAME', 'Nombre de pila:');
 define('ENTRY_FIRST_NAME_ERROR', ' <span class="errorText">al menos ' . (defined('ENTRY_FIRST_NAME_MIN_LENGTH') ? ENTRY_FIRST_NAME_MIN_LENGTH : 0) . ' cartas</span>');
@@ -231,7 +231,7 @@ define('ENTRY_EMAIL_ADDRESS_ERROR', ' <span class="errorText">al menos ' . (defi
 define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', '¡ <span class="errorText">dirección de correo electrónico no válida! (Actualmente no se admiten las diéresis en las direcciones de correo electrónico).</span>');
 define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', '¡ <span class="errorText">Esta dirección de correo electrónico ya existe!</span>');
 define('ENTRY_COMPANY', 'Nombre de la empresa:');
-define('ENTRY_STREET_ADDRESS', 'Stra&szlig;e:');
+define('ENTRY_STREET_ADDRESS', 'Calle:');
 define('ENTRY_STREET_ADDRESS_ERROR', ' <span class="errorText">al menos ' . (defined('ENTRY_STREET_ADDRESS_MIN_LENGTH') ? ENTRY_STREET_ADDRESS_MIN_LENGTH : 0) . ' cartas</span>');
 define('ENTRY_SUBURB', 'Otras direcciones:');
 define('ENTRY_POST_CODE', 'Código postal:');
@@ -384,11 +384,11 @@ define('TEXT_VALID_CATEGORIES_NAME', 'Nombre de la categoría');
 
 define('TXT_ALL', 'Todos');
 
-define('HEADING_TITLE_VAT', 'USt-IdNr.');
-define('ENTRY_VAT_ID', 'USt-IdNr:');
-define('ENTRY_CUSTOMERS_VAT_ID', 'USt-IdNr:');
-define('TEXT_VAT_FALSE', '<span class="messageStackError">Comprobado/¡USt-IdNr. no es válido!</span>');
-define('TEXT_VAT_TRUE', '<span class="messageStackSuccess">Auditado/USt-IdNr. es válido</span>');
+define('HEADING_TITLE_VAT', 'Número de IVA');
+define('ENTRY_VAT_ID', 'Número de IVA');
+define('ENTRY_CUSTOMERS_VAT_ID', 'Número de IVA');
+define('TEXT_VAT_FALSE', '<span class="messageStackError">Comprobado/¡Número de IVA no es válido!</span>');
+define('TEXT_VAT_TRUE', '<span class="messageStackSuccess">Auditado/Número de IVA es válido</span>');
 define('TEXT_VAT_UNKNOWN_COUNTRY', '<span class="messageStackError">No probado/país desconocido</span>');
 define('TEXT_VAT_INVALID_INPUT', '<span class="messageStackError">No comprobado/El código de país transferido no es válido o el número de identificación a efectos del IVA está vacío.</span>');
 define('TEXT_VAT_SERVICE_UNAVAILABLE', '<span class="messageStackError">No comprobado/El servicio SOAP no está localizable, inténtelo de nuevo más tarde.</span>');

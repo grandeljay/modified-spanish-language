@@ -42,7 +42,7 @@ define('MODULE_INTERNETMARKE_STREET_DESC', 'Por favor, introduzca la dirección.
 define('MODULE_INTERNETMARKE_SUBURB_TITLE', 'Sufijo de dirección');
 define('MODULE_INTERNETMARKE_SUBURB_DESC', 'Introduzca el sufijo de la dirección.');
 
-define('MODULE_INTERNETMARKE_PLZ_TITLE', 'PLZ');
+define('MODULE_INTERNETMARKE_PLZ_TITLE', 'Código Postal');
 define('MODULE_INTERNETMARKE_PLZ_DESC', 'Por favor, introduzca el código postal.');
 
 define('MODULE_INTERNETMARKE_CITY_TITLE', 'Ciudad');
