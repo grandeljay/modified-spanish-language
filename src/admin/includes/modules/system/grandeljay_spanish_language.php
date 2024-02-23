@@ -60,4 +60,15 @@ class grandeljay_spanish_language extends StdModule
                     WHERE `code` = "es"'
         );
     }
+
+    protected function updateSteps(): int
+    {
+        if (version_compare($this->getVersion(), self::VERSION, '<')) {
+            $this->setVersion(self::VERSION);
+
+            return self::UPDATE_SUCCESS;
+        }
+
+        return self::UPDATE_NOTHING;
+    }
 }
