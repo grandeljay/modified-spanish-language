@@ -37,7 +37,7 @@ class grandeljay_spanish_language extends StdModule
         $sql_data_array = [
             'name'             => 'Spanish',
             'code'             => 'es',
-            'image'            => 'es.svg',
+            'image'            => 'es.png',
             'directory'        => 'spanish',
             'sort_order'       => '3',
             'language_charset' => 'utf-8',
@@ -64,6 +64,19 @@ class grandeljay_spanish_language extends StdModule
     protected function updateSteps(): int
     {
         if (version_compare($this->getVersion(), self::VERSION, '<')) {
+            switch (self::VERSION) {
+                case '0.1.3':
+                    xtc_db_query(
+                        sprintf(
+                            'UPDATE `%s`
+                                SET `image` = "es.png"
+                              WHERE `image` = "es.svg"',
+                            TABLE_LANGUAGES
+                        )
+                    );
+                    break;
+            }
+
             $this->setVersion(self::VERSION);
 
             return self::UPDATE_SUCCESS;
