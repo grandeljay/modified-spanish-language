@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALTRUSTLY_TEXT_TITLE'                => 'Confianza a través de PayPal',
     'MODULE_PAYMENT_PAYPALTRUSTLY_TEXT_ADMIN_TITLE'          => 'Confianza a través de PayPal',
     'MODULE_PAYMENT_PAYPALTRUSTLY_TEXT_INFO'                 => '<img src="https://www.paypalobjects.com/images/checkout/alternative_payments/paypal_trustly_color.svg" />',
@@ -27,7 +27,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALTRUSTLY_TEXT_ERROR_HEADING'        => 'Nota',
     'MODULE_PAYMENT_PAYPALTRUSTLY_TEXT_ERROR_MESSAGE'        => 'El pago con Trustly a través de PayPal fue cancelado',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

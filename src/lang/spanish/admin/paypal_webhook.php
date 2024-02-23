@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'TEXT_PAYPAL_WEBHOOK_HEADING_TITLE'      => 'Webhooks de PayPal',
 
     'TEXT_PAYPAL_WEBHOOK_STATUS_NOT_DEFINED' => 'No configurado',
@@ -19,8 +19,7 @@ $lang_array = array(
     'TABLE_HEADING_WEBHOOK'                  => 'Gancho web',
     'TABLE_HEADING_STATUS'                   => 'Estado',
     'TABLE_HEADING_DESCRIPTION'              => 'Descripción',
-
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

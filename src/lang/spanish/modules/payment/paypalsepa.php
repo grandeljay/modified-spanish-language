@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALSEPA_TEXT_TITLE'                => 'Cobrar a través de PayPal',
     'MODULE_PAYMENT_PAYPALSEPA_TEXT_ADMIN_TITLE'          => 'Cobrar a través de PayPal',
     'MODULE_PAYMENT_PAYPALSEPA_TEXT_INFO'                 => ((!defined('RUN_MODE_ADMIN') && function_exists('xtc_href_link')) ? '<img src="' . xtc_href_link(DIR_WS_ICONS . 'paypal_sepa.png', '', 'SSL', false) . '" />' : ''),
@@ -27,7 +27,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALSEPA_TEXT_ERROR_HEADING'        => 'Nota',
     'MODULE_PAYMENT_PAYPALSEPA_TEXT_ERROR_MESSAGE'        => 'El pago con domiciliación bancaria a través de PayPal fue cancelado',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

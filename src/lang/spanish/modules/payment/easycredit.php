@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_EASYCREDIT_TEXT_TITLE'                    => 'ratenkauf por easyCredit',
     'MODULE_PAYMENT_EASYCREDIT_TEXT_INFO'                     => '',
     'MODULE_PAYMENT_EASYCREDIT_TEXT_DESCRIPTION'              => '',
@@ -48,7 +48,7 @@ $lang_array = array(
     'TEXT_EASYCREDIT_TOTAL_INTEREST'                          => 'Importe de los intereses',
     'TEXT_EASYCREDIT_MONTHLY_PAYMENT'                         => 'Cuotas mensuales por importe de',
     'TEXT_EASYCREDIT_LAST_PAYMENT'                            => 'último plazo',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

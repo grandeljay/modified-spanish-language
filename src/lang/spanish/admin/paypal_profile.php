@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'TEXT_PAYPAL_PROFILE_HEADING_TITLE' => 'Perfil de PayPal',
 
     'TEXT_PAYPAL_PROFILE_STATUS'        => 'Estándar:',
@@ -33,7 +33,7 @@ $lang_array = array(
     'TEXT_PAYPAL_PROFILE_ADDRESS_INFO'  => '¿Debe tomarse la dirección de envío de PayPal?',
 
     'TEXT_PAYPAL_PROFILE_INFO'          => 'No hay ningún perfil de PayPal disponible.<br/><br/>Con un perfil de PayPal puede:<ul><li>cambiar el nombre que aparece en PayPal</li><li>añadir un logotipo a la página de PayPal</li><li>establecer la página de destino en PayPal</li></ul>',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

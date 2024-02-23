@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALCART_TEXT_TITLE'                => 'PayPal',
     'MODULE_PAYMENT_PAYPALCART_TEXT_ADMIN_TITLE'          => 'Botón de PayPal exprés en el carro de la compra y en la página del artículoALT',
     'MODULE_PAYMENT_PAYPALCART_TEXT_INFO'                 => ((!defined('RUN_MODE_ADMIN') && function_exists('xtc_href_link')) ? '<img src="' . xtc_href_link(DIR_WS_ICONS . 'paypal.png', '', 'SSL', false) . '" />' : ''),
@@ -29,7 +29,7 @@ $lang_array = array(
     'MODULE_PAYMENT_PAYPALCART_TEXT_ERROR_MESSAGE'        => 'Se ha cancelado el pago de PayPal',
 
     'TEXT_PAYPAL_CART_ACCOUNT_CREATED'                    => 'Hemos creado una cuenta de cliente para usted con su dirección de correo electrónico de PayPal. Puede solicitar la contraseña de su nueva cuenta de cliente más adelante utilizando la función "Contraseña olvidada".',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

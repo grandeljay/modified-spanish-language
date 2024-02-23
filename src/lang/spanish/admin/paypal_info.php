@@ -8,9 +8,9 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'TEXT_PAYPAL_INFO_HEADING_TITLE' => 'Información sobre PayPal',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

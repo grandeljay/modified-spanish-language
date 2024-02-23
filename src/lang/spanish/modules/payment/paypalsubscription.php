@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_TITLE'                => 'Suscripción PayPal',
     'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_ADMIN_TITLE'          => 'Suscripción a PayPal (para pagos periódicos)',
     'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_INFO'                 => ((!defined('RUN_MODE_ADMIN') && function_exists('xtc_href_link')) ? '<img src="' . xtc_href_link(DIR_WS_ICONS . 'paypal.png', '', 'SSL', false) . '" />' : ''),
@@ -27,7 +27,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_ERROR_HEADING'        => 'Nota',
     'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_ERROR_MESSAGE'        => 'Se ha cancelado el pago de la suscripción de PayPal',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

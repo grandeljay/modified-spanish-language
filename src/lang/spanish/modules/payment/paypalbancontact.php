@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALBANCONTACT_TEXT_TITLE'                => 'Bancontact a través de PayPal',
     'MODULE_PAYMENT_PAYPALBANCONTACT_TEXT_ADMIN_TITLE'          => 'Bancontact a través de PayPal',
     'MODULE_PAYMENT_PAYPALBANCONTACT_TEXT_INFO'                 => '<img src="https://www.paypalobjects.com/images/checkout/alternative_payments/paypal_bancontact_color.svg" />',
@@ -27,7 +27,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALBANCONTACT_TEXT_ERROR_HEADING'        => 'Nota',
     'MODULE_PAYMENT_PAYPALBANCONTACT_TEXT_ERROR_MESSAGE'        => 'El pago con Bancontact a través de PayPal fue cancelado',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

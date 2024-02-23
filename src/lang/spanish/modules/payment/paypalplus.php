@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALPLUS_TEXT_TITLE'                => 'PayPal PLUS',
     'MODULE_PAYMENT_PAYPALPLUS_TEXT_ADMIN_TITLE'          => 'PayPal PLUS (sólo con sede de la empresa en DE<span style="background:#dd2400;color: #fff;font-weight: bold;padding: 2px 5px;border-radius: 4px;margin: 0 0 0 5px;">)ALT</span>',
     'MODULE_PAYMENT_PAYPALPLUS_TEXT_INFO'                 => 'Por favor, seleccione uno de los métodos de pago que aparecen aquí haciendo clic sobre él.',
@@ -29,7 +29,7 @@ $lang_array = array(
     'MODULE_PAYMENT_PAYPALPLUS_TEXT_ERROR_MESSAGE'        => 'Se ha cancelado el pago de PayPal',
 
     'MODULE_PAYMENT_PAYPALPLUS_INVOICE'                   => 'Compra a cuenta',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

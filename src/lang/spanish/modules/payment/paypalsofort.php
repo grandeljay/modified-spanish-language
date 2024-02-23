@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALSOFORT_TEXT_TITLE'                => 'Inmediatamente a través de PayPal',
     'MODULE_PAYMENT_PAYPALSOFORT_TEXT_ADMIN_TITLE'          => 'Inmediatamente a través de PayPal',
     'MODULE_PAYMENT_PAYPALSOFORT_TEXT_INFO'                 => '<img src="https://www.paypalobjects.com/images/checkout/alternative_payments/paypal_sofort_black.svg" />',
@@ -27,7 +27,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALSOFORT_TEXT_ERROR_HEADING'        => 'Nota',
     'MODULE_PAYMENT_PAYPALSOFORT_TEXT_ERROR_MESSAGE'        => 'El pago con Sofort a través de PayPal fue cancelado',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_TITLE'                => 'PayPal PLUS',
     'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_ADMIN_TITLE'          => 'Enlace de pago PayPal PLUS (sólo con sede de la empresa en DE<span style="background:#dd2400;color: #fff;font-weight: bold;padding: 2px 5px;border-radius: 4px;margin: 0 0 0 5px;">)ALT</span>',
     'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_INFO'                 => ((!defined('RUN_MODE_ADMIN') && function_exists('xtc_href_link')) ? '<img src="' . xtc_href_link(DIR_WS_ICONS . 'paypal.png', '', 'SSL', false) . '" />' : ''),
@@ -30,7 +30,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_SUCCESS'              => 'Pague ahora con PayPal. Haga clic en el siguiente enlace:<br/> %s',
     'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_COMPLETED'            => 'Gracias por pagar con PayPal.',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

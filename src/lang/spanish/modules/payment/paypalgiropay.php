@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALGIROPAY_TEXT_TITLE'                => 'Giropay via PayPal',
     'MODULE_PAYMENT_PAYPALGIROPAY_TEXT_ADMIN_TITLE'          => 'Giropay via PayPal',
     'MODULE_PAYMENT_PAYPALGIROPAY_TEXT_INFO'                 => '<img src="https://www.paypalobjects.com/images/checkout/alternative_payments/paypal_giropay_color.svg" />',
@@ -27,7 +27,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALGIROPAY_TEXT_ERROR_HEADING'        => 'Hinweis',
     'MODULE_PAYMENT_PAYPALGIROPAY_TEXT_ERROR_MESSAGE'        => 'Die Zahlung mit Giropay via PayPal wurde abgebrochen',
-);
+];
 
 
 foreach ($lang_array as $key => $val) {

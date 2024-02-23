@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'TEXT_PAYPAL_MODULE_HEADING_TITLE'              => 'Productos PayPal',
 
     'TABLE_HEADING_MODULES'                         => 'Módulo',
@@ -59,7 +59,7 @@ $lang_array = array(
 
     'TEXT_PAYPAL_MODULE_UPSTREAM_PAYMENT'           => 'Caja de financiación en la caja',
     'TEXT_PAYPAL_MODULE_UPSTREAM_PAYMENT_INFO'      => '¿Deben mostrarse los detalles del pago a plazos en la caja?',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

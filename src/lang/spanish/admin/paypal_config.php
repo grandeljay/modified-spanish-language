@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'TEXT_PAYPAL_CONFIG_HEADING_TITLE'            => 'Configuración de PayPal',
 
     'TEXT_PAYPAL_CONFIG_SECRET_LIVE'              => 'Secreto en directo:',
@@ -80,7 +80,7 @@ $lang_array = array(
     'TEXT_PAYPAL_CONFIG_LOG_LEVEL_INFO'           => '<b>Nota:</b> En el modo en directo, el registro sólo tiene lugar hasta el nivel INFO.',
 
     'BUTTON_PAYPAL_STATUS_INSTALL'                => 'Estado de la orden de instalación',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

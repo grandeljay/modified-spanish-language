@@ -8,7 +8,7 @@
  * @package GrandelJaySpanishLanguage
  */
 
-$lang_array = array(
+$lang_array = [
     'MODULE_PAYMENT_PAYPALEPS_TEXT_TITLE'                => 'EPS a través de PayPal',
     'MODULE_PAYMENT_PAYPALEPS_TEXT_ADMIN_TITLE'          => 'EPS a través de PayPal',
     'MODULE_PAYMENT_PAYPALEPS_TEXT_INFO'                 => '<img src="https://www.paypalobjects.com/images/checkout/alternative_payments/paypal_eps_color.svg" />',
@@ -27,7 +27,7 @@ $lang_array = array(
 
     'MODULE_PAYMENT_PAYPALEPS_TEXT_ERROR_HEADING'        => 'Nota',
     'MODULE_PAYMENT_PAYPALEPS_TEXT_ERROR_MESSAGE'        => 'El pago con EPS a través de PayPal fue cancelado',
-);
+];
 
 foreach ($lang_array as $key => $val) {
     defined($key) || define($key, $val);

@@ -34,7 +34,7 @@ class grandeljay_spanish_language extends StdModule
         parent::install();
 
         /** Insert Spanish language */
-        $sql_data_array = array(
+        $sql_data_array = [
             'name'             => 'Spanish',
             'code'             => 'es',
             'image'            => 'es.svg',
@@ -43,7 +43,7 @@ class grandeljay_spanish_language extends StdModule
             'language_charset' => 'utf-8',
             'status'           => '1',
             'status_admin'     => '1',
-        );
+        ];
 
         xtc_db_perform(TABLE_LANGUAGES, $sql_data_array);
 
